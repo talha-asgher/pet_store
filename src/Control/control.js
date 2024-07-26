@@ -28,18 +28,6 @@ export default function Control() {
   ]);
 
   const navigate = useNavigate();
-  //const location = useLocation();
-
-  // useEffect(() => {
-  //   const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";
-  //   if (isAuthenticated && location.pathname === "/") {
-  //     navigate("/home");
-  //   } else if (isAuthenticated) {
-  //     navigate(location.pathname);
-  //   } else {
-  //     navigate("/");
-  //   }
-  // }, [navigate, location.pathname]);
 
   function handleUpdatePet(editPet) {
     setPetsData((prevData) =>
